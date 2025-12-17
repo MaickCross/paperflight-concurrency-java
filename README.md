@@ -1,5 +1,3 @@
-# paperflight-concurrency-java
-
 # Controle de Concorrência com Aviões de Papel
 
 ---
