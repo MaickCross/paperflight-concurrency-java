@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TrocarTelasController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../img/TelaInicial.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="689.0" layoutX="168.0" layoutY="155.0">
+         <image>
+            <Image url="@../img/Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="200.0" layoutX="394.0" layoutY="384.0">
+         <image>
+            <Image url="@../img/BotaoJogar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="306.0" layoutX="718.0" layoutY="631.0">
+         <image>
+            <Image url="@../img/feito-por-MAick-Vieira-18-03-2025.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menuIcone02" fitHeight="75.0" fitWidth="80.0" layoutX="314.0" layoutY="463.0" visible="false">
+         <image>
+            <Image url="@../img/pixil-frame-0%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="200.0" layoutX="394.0" layoutY="469.0">
+         <image>
+            <Image url="@../img/sobre-18-03-2025.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menuIcone" fitHeight="75.0" fitWidth="80.0" layoutX="314.0" layoutY="381.0" visible="false">
+         <image>
+            <Image url="@../img/pixil-frame-0%20(2).png" />
+         </image>
+      </ImageView>
+    <Button fx:id="botaoJogar" layoutX="425.0" layoutY="394.0" mnemonicParsing="false" onAction="#Jogar" onMouseEntered="#MostrarIconeAviao" onMouseExited="#RemoverIconeAviao" opacity="0.0" prefHeight="96.0" prefWidth="219.0" text="Button" />
+      <Button fx:id="sobre" layoutX="408.0" layoutY="476.0" mnemonicParsing="false" onAction="#telaSobre" onMouseEntered="#MostrarIconeAviaoSobre" onMouseExited="#RemoverIconeAviaoSobre" opacity="0.0" prefHeight="46.0" prefWidth="164.0" text="Button" />
+      <ImageView fitHeight="296.0" fitWidth="257.0" layoutX="-6.0" layoutY="110.0">
+         <image>
+            <Image url="@../img/AviaoCarregamento.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
